@@ -544,7 +544,7 @@
           {"day": "Friday", "start": "11:00", "end": "12:30", "subject": "Bioingeniería (BioIng)"}
         ],
         "laboratories": [
-          {"day": "Thursday", "start": "12:30", "end": "14:30", "subject": "Bioingeniería (BioIng)", "group": "L1"},
+          {"day": "Friday", "start": "12:30", "end": "14:30", "subject": "Bioingeniería (BioIng)", "group": "L1"},
           {"day": "Friday", "start": "12:30", "end": "14:30", "subject": "Optimización de Sistemas (OdS)", "group": "L1"},
           {"day": "Friday", "start": "15:00", "end": "17:00", "subject": "Bioingeniería (BioIng)", "group": "L2"}
         ]
