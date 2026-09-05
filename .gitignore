@@ -1,0 +1,19 @@
+# Entorno local de compilación (copias de escritura del toolchain).
+# /home está montado en solo lectura: estas copias viven dentro del proyecto
+# pero NO deben subirse a git (son ~7 GB y específicas de esta máquina).
+/.toolkit/
+
+# Artefactos y registros.
+*.apk
+*.log
+*.pid
+
+# Artefactos temporales de tests golden (las imágenes de referencia SÍ se
+# versionan; los "failures" no).
+/app/test/failures/
+
+# PDFs de la facultad: fuentes para generar los datos. No se suben (mira
+# app/assets/data/academic_2026_2027.json para los datos ya procesados).
+/calendario academico.pdf
+/document.pdf
+/examenes.pdf

@@ -1,0 +1,568 @@
+{
+  "academic_year": "2026-2027",
+  "degree": "Grado en Ingeniería Electrónica de Comunicaciones",
+  "calendar_rules": {
+    "semester_1": {
+      "classes_start": "2026-09-02",
+      "classes_end": "2026-12-15",
+      "recovery_days": ["2026-12-09", "2026-12-10"],
+      "ordinary_exams_period": {"start": "2026-12-16", "end": "2027-01-20"},
+      "grades_deadline": "2027-02-08"
+    },
+    "semester_2": {
+      "classes_start": "2027-01-21",
+      "classes_end": "2027-05-07",
+      "recovery_days": ["2027-05-06"],
+      "ordinary_exams_period": {"start": "2027-05-10", "end": "2027-05-28"},
+      "grades_deadline": "2027-06-08"
+    },
+    "extraordinary_exams": {
+      "period": {"start": "2027-06-14", "end": "2027-07-05"},
+      "grades_deadline": "2027-07-09"
+    },
+    "holidays_and_recesses": [
+      {"name": "Fiesta Nacional", "date": "2026-10-12"},
+      {"name": "No lectivo", "dates": ["2026-10-29", "2026-10-30", "2026-10-31"]},
+      {"name": "Todos los Santos / Festivo", "date": "2026-11-01"},
+      {"name": "Almudena (Madrid)", "date": "2026-11-09"},
+      {"name": "Constitución / Inmaculada", "dates": ["2026-12-06", "2026-12-07", "2026-12-08"]},
+      {"name": "Vacaciones de Navidad", "start": "2026-12-23", "end": "2027-01-06"},
+      {"name": "Santo Tomás de Aquino / No lectivo", "dates": ["2027-01-28", "2027-01-29"]},
+      {"name": "Semana Santa", "start": "2027-03-22", "end": "2027-03-29"},
+      {"name": "Fiesta del Trabajo / Comunidad de Madrid", "dates": ["2027-05-01", "2027-05-02", "2027-05-03"]},
+      {"name": "San Isidro", "date": "2027-05-15"}
+    ]
+  },
+  "exams": [
+    {
+      "course_code": "805960",
+      "course_name": "Física I",
+      "year": 1,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-14", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-14", "time": "09:30"}
+    },
+    {
+      "course_code": "805962",
+      "course_name": "Informática",
+      "year": 1,
+      "semester": 1,
+      "ordinary": {"date": "2026-12-18", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-18", "time": "09:30"}
+    },
+    {
+      "course_code": "805963",
+      "course_name": "Circuitos Digitales",
+      "year": 1,
+      "semester": 1,
+      "ordinary": {"date": "2026-12-17", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-16", "time": "09:30"}
+    },
+    {
+      "course_code": "805964",
+      "course_name": "Tratamiento y Análisis de Datos",
+      "year": 1,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-18", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-15", "time": "09:30"}
+    },
+    {
+      "course_code": "805961",
+      "course_name": "Cálculo",
+      "year": 1,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-24", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-24", "time": "09:30"}
+    },
+    {
+      "course_code": "805965",
+      "course_name": "Física II",
+      "year": 1,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-18", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-23", "time": "09:30"}
+    },
+    {
+      "course_code": "805966",
+      "course_name": "Álgebra",
+      "year": 1,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-27", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-22", "time": "09:30"}
+    },
+    {
+      "course_code": "805967",
+      "course_name": "Análisis de circuitos",
+      "year": 1,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-20", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-25", "time": "16:30"}
+    },
+    {
+      "course_code": "805968",
+      "course_name": "Redes y Servicios de Telecom.",
+      "year": 1,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-12", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-21", "time": "09:30"}
+    },
+    {
+      "course_code": "805969",
+      "course_name": "Ampliación de Matemáticas",
+      "year": 2,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-11", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-16", "time": "16:30"}
+    },
+    {
+      "course_code": "805970",
+      "course_name": "Sistemas Lineales",
+      "year": 2,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-13", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-18", "time": "16:30"}
+    },
+    {
+      "course_code": "805971",
+      "course_name": "Electromagnetismo I",
+      "year": 2,
+      "semester": 1,
+      "ordinary": {"date": "2026-12-16", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-15", "time": "16:30"}
+    },
+    {
+      "course_code": "805972",
+      "course_name": "Electrónica Física",
+      "year": 2,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-15", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-14", "time": "16:30"}
+    },
+    {
+      "course_code": "805973",
+      "course_name": "Estructura de Computadores",
+      "year": 2,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-20", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-17", "time": "13:00"}
+    },
+    {
+      "course_code": "805974",
+      "course_name": "Electromagnetismo II",
+      "year": 2,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-17", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-23", "time": "16:30"}
+    },
+    {
+      "course_code": "805975",
+      "course_name": "Empresa y Gestión de proyectos",
+      "year": 2,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-28", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-24", "time": "16:30"}
+    },
+    {
+      "course_code": "805976",
+      "course_name": "Sistemas Operativos y de Tiempo R.",
+      "year": 2,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-21", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-22", "time": "16:30"}
+    },
+    {
+      "course_code": "805977",
+      "course_name": "Procesamiento de Señales",
+      "year": 2,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-11", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-21", "time": "16:30"}
+    },
+    {
+      "course_code": "805978",
+      "course_name": "Teoría de la Comunicación",
+      "year": 3,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-19", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-17", "time": "09:30"}
+    },
+    {
+      "course_code": "805979",
+      "course_name": "Física de dispositivos electrónicos",
+      "year": 3,
+      "semester": 1,
+      "ordinary": {"date": "2026-12-18", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-14", "time": "13:00"}
+    },
+    {
+      "course_code": "805980",
+      "course_name": "Circuitos de Alta Frecuencia",
+      "year": 3,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-12", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-17", "time": "16:30"}
+    },
+    {
+      "course_code": "805981",
+      "course_name": "Fundamentos de Redes de Computadores",
+      "year": 3,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-13", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-16", "time": "13:00"}
+    },
+    {
+      "course_code": "805992",
+      "course_name": "Optimización de sistemas",
+      "year": 3,
+      "semester": 1,
+      "ordinary": {"date": "2026-12-17", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-18", "time": "13:00"}
+    },
+    {
+      "course_code": "806001",
+      "course_name": "Bioingeniería",
+      "year": 3,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-15", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-15", "time": "13:00"}
+    },
+    {
+      "course_code": "805985",
+      "course_name": "Comunicaciones inalámbricas",
+      "year": 3,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-26", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-21", "time": "13:00"}
+    },
+    {
+      "course_code": "805982",
+      "course_name": "Electrónica Analógica",
+      "year": 3,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-24", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-23", "time": "13:00"}
+    },
+    {
+      "course_code": "805984",
+      "course_name": "Control de sistemas",
+      "year": 3,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-10", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-22", "time": "13:00"}
+    },
+    {
+      "course_code": "805983",
+      "course_name": "Fundamentos compatibilidad Electromagnética",
+      "year": 3,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-18", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-24", "time": "13:00"}
+    },
+    {
+      "course_code": "804581",
+      "course_name": "Electrónica de potencia",
+      "year": 4,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-20", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-16", "time": "09:30"}
+    },
+    {
+      "course_code": "804583",
+      "course_name": "Instrumentación electrónica",
+      "year": 4,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-14", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-18", "time": "09:30"}
+    },
+    {
+      "course_code": "804587",
+      "course_name": "Diseño de sistemas digitales",
+      "year": 4,
+      "semester": 1,
+      "ordinary": {"date": "2026-12-16", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-15", "time": "09:30"}
+    },
+    {
+      "course_code": "804600",
+      "course_name": "Redes de computadores",
+      "year": 4,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-11", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-14", "time": "09:30"}
+    },
+    {
+      "course_code": "805990",
+      "course_name": "Antenas",
+      "year": 4,
+      "semester": 1,
+      "ordinary": {"date": "2027-01-18", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-17", "time": "13:00"}
+    },
+    {
+      "course_code": "804586",
+      "course_name": "Arquitectura de Sistemas Integrados",
+      "year": 4,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-20", "time": "13:00"},
+      "extraordinary": {"date": "2027-06-22", "time": "09:30"}
+    },
+    {
+      "course_code": "804604",
+      "course_name": "Robótica",
+      "year": 4,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-25", "time": "16:30"},
+      "extraordinary": {"date": "2027-06-23", "time": "09:30"}
+    },
+    {
+      "course_code": "806000",
+      "course_name": "Tecnologías Fotónicas para Comun.",
+      "year": 4,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-13", "time": "09:30"},
+      "extraordinary": {"date": "2027-06-21", "time": "09:30"}
+    },
+    {
+      "course_code": "804611",
+      "course_name": "Prácticas de empresa",
+      "year": 4,
+      "semester": 2,
+      "ordinary": {"date": "2027-05-28", "time": "TBD"},
+      "extraordinary": {"date": "2027-06-25", "time": "TBD"}
+    },
+    {
+      "course_code": "804601",
+      "course_name": "Trabajo Fin de Grado",
+      "year": 4,
+      "semester": 2,
+      "ordinary": {"dates": ["2027-01-27", "2027-06-07"], "time": "TBD"},
+      "extraordinary": {"date": "2027-07-05", "time": "TBD"}
+    }
+  ],
+  "weekly_timetables": {
+    "year_1": {
+      "semester_1": {
+        "classroom": "Aula 2",
+        "theory_classes": [
+          {"day": "Monday", "start": "11:30", "end": "13:30", "subject": "Física I"},
+          {"day": "Tuesday", "start": "09:30", "end": "10:30", "subject": "Cálculo"},
+          {"day": "Tuesday", "start": "10:30", "end": "11:30", "subject": "Tratamiento y Análisis de Datos (TyAdD)"},
+          {"day": "Tuesday", "start": "11:30", "end": "12:30", "subject": "Informática"},
+          {"day": "Tuesday", "start": "13:30", "end": "14:30", "subject": "Circuitos Digitales (C.D.)"},
+          {"day": "Wednesday", "start": "11:30", "end": "12:30", "subject": "Informática"},
+          {"day": "Wednesday", "start": "12:30", "end": "14:30", "subject": "Física I"},
+          {"day": "Thursday", "start": "09:30", "end": "10:30", "subject": "Circuitos Digitales (C.D.)"},
+          {"day": "Thursday", "start": "10:30", "end": "11:30", "subject": "Cálculo"},
+          {"day": "Thursday", "start": "11:30", "end": "12:30", "subject": "Tratamiento y Análisis de Datos (TyAdD)"},
+          {"day": "Friday", "start": "11:30", "end": "12:30", "subject": "Circuitos Digitales (C.D.)"},
+          {"day": "Friday", "start": "12:30", "end": "14:30", "subject": "Física I"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "08:30", "end": "10:30", "subject": "Informática", "group": "L1"},
+          {"day": "Monday", "start": "14:30", "end": "16:30", "subject": "Tratamiento y Análisis de Datos (TyAdD)", "group": "L1"},
+          {"day": "Monday", "start": "16:30", "end": "18:30", "subject": "Informática", "group": "L2"},
+          {"day": "Tuesday", "start": "15:30", "end": "17:30", "subject": "Circuitos Digitales (C.D.)", "group": "L4"},
+          {"day": "Wednesday", "start": "09:30", "end": "11:30", "subject": "Circuitos Digitales (C.D.)", "group": "L1"},
+          {"day": "Thursday", "start": "15:30", "end": "17:30", "subject": "Circuitos Digitales (C.D.)", "group": "L2"},
+          {"day": "Friday", "start": "09:30", "end": "11:30", "subject": "Circuitos Digitales (C.D.)", "group": "L3"},
+          {"day": "Friday", "start": "14:30", "end": "16:30", "subject": "Tratamiento y Análisis de Datos (TyAdD)", "group": "L2 y L3"}
+        ]
+      },
+      "semester_2": {
+        "classroom": "Aula M3",
+        "theory_classes": [
+          {"day": "Monday", "start": "09:30", "end": "11:30", "subject": "Física II"},
+          {"day": "Monday", "start": "11:30", "end": "13:30", "subject": "Álgebra"},
+          {"day": "Tuesday", "start": "08:30", "end": "09:30", "subject": "Análisis de Circuitos (AdC)"},
+          {"day": "Tuesday", "start": "10:30", "end": "11:30", "subject": "Cálculo"},
+          {"day": "Tuesday", "start": "11:30", "end": "12:30", "subject": "Álgebra"},
+          {"day": "Tuesday", "start": "12:30", "end": "14:30", "subject": "Redes y Servicios de Telecomunicaciones (RySdT)"},
+          {"day": "Wednesday", "start": "10:30", "end": "12:30", "subject": "Cálculo"},
+          {"day": "Wednesday", "start": "12:30", "end": "14:30", "subject": "Redes y Servicios de Telecomunicaciones (RySdT)"},
+          {"day": "Wednesday", "start": "14:30", "end": "15:30", "subject": "Análisis de Circuitos (AdC)"},
+          {"day": "Thursday", "start": "09:30", "end": "10:30", "subject": "Física II"},
+          {"day": "Thursday", "start": "10:30", "end": "12:30", "subject": "Álgebra"},
+          {"day": "Thursday", "start": "12:30", "end": "13:30", "subject": "Redes y Servicios de Telecomunicaciones (RySdT)"},
+          {"day": "Friday", "start": "08:30", "end": "10:30", "subject": "Análisis de Circuitos (AdC)"},
+          {"day": "Friday", "start": "10:30", "end": "12:30", "subject": "Física II"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "13:30", "end": "15:30", "subject": "Análisis de Circuitos (AdC)", "group": "L1"},
+          {"day": "Wednesday", "start": "09:30", "end": "11:30", "subject": "Análisis de Circuitos (AdC)", "group": "L2"},
+          {"day": "Thursday", "start": "13:30", "end": "15:30", "subject": "Análisis de Circuitos (AdC)", "group": "L3"},
+          {"day": "Friday", "start": "11:30", "end": "13:30", "subject": "Análisis de Circuitos (AdC)", "group": "L4"}
+        ]
+      }
+    },
+    "year_2": {
+      "semester_1": {
+        "classroom": "Aula 2",
+        "theory_classes": [
+          {"day": "Monday", "start": "15:00", "end": "16:30", "subject": "Electromagnetismo I (ELM1)"},
+          {"day": "Monday", "start": "16:30", "end": "18:00", "subject": "Electrónica Física (EF)"},
+          {"day": "Monday", "start": "18:00", "end": "19:30", "subject": "Estructura de computadores (EdC)"},
+          {"day": "Tuesday", "start": "15:00", "end": "16:30", "subject": "Sistemas Lineales (SSLL)"},
+          {"day": "Tuesday", "start": "16:30", "end": "18:00", "subject": "Ampliación de Matemáticas (AM)"},
+          {"day": "Tuesday", "start": "18:00", "end": "19:30", "subject": "Estructura de computadores (EdC)"},
+          {"day": "Wednesday", "start": "15:00", "end": "16:30", "subject": "Electromagnetismo I (ELM1)"},
+          {"day": "Wednesday", "start": "16:30", "end": "18:00", "subject": "Ampliación de Matemáticas (AM)"},
+          {"day": "Wednesday", "start": "18:00", "end": "19:30", "subject": "Electrónica Física (EF)"},
+          {"day": "Thursday", "start": "15:00", "end": "16:30", "subject": "Sistemas Lineales (SSLL)"},
+          {"day": "Thursday", "start": "16:30", "end": "17:30", "subject": "Electrónica Física (EF)"},
+          {"day": "Thursday", "start": "17:30", "end": "18:30", "subject": "Electromagnetismo I (ELM1)"},
+          {"day": "Thursday", "start": "18:30", "end": "19:30", "subject": "Ampliación de Matemáticas (AM)"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "09:30", "end": "11:30", "subject": "Sistemas Lineales (SSLL)", "group": "L1"},
+          {"day": "Tuesday", "start": "09:30", "end": "11:30", "subject": "Estructura de computadores (EdC)", "group": "L1"},
+          {"day": "Tuesday", "start": "11:30", "end": "13:30", "subject": "Sistemas Lineales (SSLL)", "group": "L2"},
+          {"day": "Thursday", "start": "11:30", "end": "13:30", "subject": "Estructura de computadores (EdC)", "group": "L2"}
+        ]
+      },
+      "semester_2": {
+        "classroom": "Aula M3",
+        "theory_classes": [
+          {"day": "Monday", "start": "15:30", "end": "16:30", "subject": "Sistemas Operativos y de T. R. (SOTR)"},
+          {"day": "Monday", "start": "16:30", "end": "17:30", "subject": "Procesamiento de Señales (PdS)"},
+          {"day": "Monday", "start": "17:30", "end": "19:30", "subject": "Empresa y Gestión de Proyectos (EyGdP)"},
+          {"day": "Tuesday", "start": "15:30", "end": "16:30", "subject": "Sistemas Operativos y de T. R. (SOTR)"},
+          {"day": "Tuesday", "start": "16:30", "end": "18:00", "subject": "Electromagnetismo II (ELM2)"},
+          {"day": "Tuesday", "start": "18:00", "end": "19:00", "subject": "Procesamiento de Señales (PdS)"},
+          {"day": "Wednesday", "start": "15:00", "end": "16:30", "subject": "Procesamiento de Señales (PdS)"},
+          {"day": "Wednesday", "start": "16:30", "end": "18:00", "subject": "Electromagnetismo II (ELM2)"},
+          {"day": "Thursday", "start": "15:00", "end": "16:00", "subject": "Sistemas Operativos y de T. R. (SOTR)"},
+          {"day": "Thursday", "start": "16:00", "end": "17:30", "subject": "Electromagnetismo II (ELM2)"},
+          {"day": "Thursday", "start": "17:30", "end": "19:30", "subject": "Empresa y Gestión de Proyectos (EyGdP)"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "12:00", "end": "14:00", "subject": "Electromagnetismo II (ELM2)", "group": "L1"},
+          {"day": "Monday", "start": "12:00", "end": "14:00", "subject": "Sistemas Operativos y de T. R. (SOTR)", "group": "L1"},
+          {"day": "Tuesday", "start": "12:00", "end": "14:00", "subject": "Electromagnetismo II (ELM2)", "group": "L2"},
+          {"day": "Tuesday", "start": "12:00", "end": "14:00", "subject": "Sistemas Operativos y de T. R. (SOTR)", "group": "L2 y L3"},
+          {"day": "Wednesday", "start": "12:00", "end": "14:00", "subject": "Procesamiento de Señales (PdS)", "group": "L1"},
+          {"day": "Thursday", "start": "09:30", "end": "11:30", "subject": "Electromagnetismo II (ELM2)", "group": "L4"},
+          {"day": "Thursday", "start": "12:00", "end": "14:00", "subject": "Procesamiento de Señales (PdS)", "group": "L2"},
+          {"day": "Friday", "start": "09:30", "end": "11:30", "subject": "Electromagnetismo II (ELM2)", "group": "L3"}
+        ]
+      }
+    },
+    "year_3": {
+      "semester_1": {
+        "classroom": "Aula 5",
+        "theory_classes": [
+          {"day": "Monday", "start": "10:30", "end": "11:30", "subject": "Física de Dispositivos Electrónicos (FdDE)"},
+          {"day": "Monday", "start": "11:30", "end": "13:00", "subject": "Teoría de la Comunicación (TdC)"},
+          {"day": "Monday", "start": "13:00", "end": "14:30", "subject": "Fund. de Redes de Computadores (FRC)"},
+          {"day": "Tuesday", "start": "09:30", "end": "11:00", "subject": "Circuitos de Alta Frecuencia (CAF)"},
+          {"day": "Tuesday", "start": "11:00", "end": "12:30", "subject": "Teoría de la Comunicación (TdC)"},
+          {"day": "Tuesday", "start": "12:30", "end": "14:00", "subject": "Fund. de Redes de Computadores (FRC)"},
+          {"day": "Wednesday", "start": "11:00", "end": "12:30", "subject": "Teoría de la Comunicación (TdC)"},
+          {"day": "Wednesday", "start": "12:30", "end": "14:00", "subject": "Física de Dispositivos Electrónicos (FdDE)"},
+          {"day": "Thursday", "start": "11:30", "end": "13:00", "subject": "Circuitos de Alta Frecuencia (CAF)"},
+          {"day": "Thursday", "start": "13:00", "end": "14:30", "subject": "Física de Dispositivos Electrónicos (FdDE)"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "15:30", "end": "17:30", "subject": "Fund. de Redes de Computadores (FRC)", "group": "L1"},
+          {"day": "Wednesday", "start": "15:00", "end": "17:00", "subject": "Fund. de Redes de Computadores (FRC)", "group": "L2"},
+          {"day": "Wednesday", "start": "15:00", "end": "17:00", "subject": "Circuitos de Alta Frecuencia (CAF)", "group": "L1"},
+          {"day": "Wednesday", "start": "17:30", "end": "19:30", "subject": "Teoría de la Comunicación (TdC)", "group": "L1"},
+          {"day": "Thursday", "start": "15:00", "end": "17:00", "subject": "Circuitos de Alta Frecuencia (CAF)", "group": "L2"},
+          {"day": "Thursday", "start": "17:30", "end": "19:30", "subject": "Teoría de la Comunicación (TdC)", "group": "L2"}
+        ]
+      },
+      "semester_2": {
+        "classroom": "Aula 14",
+        "theory_classes": [
+          {"day": "Monday", "start": "09:30", "end": "11:00", "subject": "Control de Sistemas (CdS)"},
+          {"day": "Monday", "start": "11:00", "end": "12:30", "subject": "Electrónica Analógica (EA)"},
+          {"day": "Tuesday", "start": "09:30", "end": "11:30", "subject": "Comunicaciones Inalámbricas (CCII)"},
+          {"day": "Tuesday", "start": "11:30", "end": "13:00", "subject": "Fundamentos de Compatibilidad Electromagnética (FCEM)"},
+          {"day": "Wednesday", "start": "09:30", "end": "11:00", "subject": "Control de Sistemas (CdS)"},
+          {"day": "Wednesday", "start": "11:00", "end": "12:30", "subject": "Electrónica Analógica (EA)"},
+          {"day": "Thursday", "start": "09:30", "end": "11:30", "subject": "Comunicaciones Inalámbricas (CCII)"},
+          {"day": "Thursday", "start": "11:30", "end": "13:00", "subject": "Fundamentos de Compatibilidad Electromagnética (FCEM)"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "15:30", "end": "17:30", "subject": "Electrónica Analógica (EA)", "group": "L1"},
+          {"day": "Monday", "start": "18:00", "end": "20:00", "subject": "Comunicaciones Inalámbricas (CCII)", "group": "L1"},
+          {"day": "Tuesday", "start": "15:00", "end": "17:00", "subject": "Control de Sistemas (CdS)", "group": "L1"},
+          {"day": "Tuesday", "start": "15:00", "end": "17:00", "subject": "Fundamentos de Compatibilidad Electromagnética (FCEM)", "group": "L1"},
+          {"day": "Wednesday", "start": "15:00", "end": "17:00", "subject": "Comunicaciones Inalámbricas (CCII)", "group": "L2"},
+          {"day": "Wednesday", "start": "17:30", "end": "19:30", "subject": "Electrónica Analógica (EA)", "group": "L2"},
+          {"day": "Thursday", "start": "15:00", "end": "17:00", "subject": "Control de Sistemas (CdS)", "group": "L2"},
+          {"day": "Thursday", "start": "15:00", "end": "17:00", "subject": "Fundamentos de Compatibilidad Electromagnética (FCEM)", "group": "L2"},
+          {"day": "Friday", "start": "09:30", "end": "11:30", "subject": "Electrónica Analógica (EA)", "group": "L3"}
+        ]
+      }
+    },
+    "year_4": {
+      "semester_1": {
+        "classroom": "Aula 14",
+        "theory_classes": [
+          {"day": "Monday", "start": "15:00", "end": "16:30", "subject": "Diseño de Sistemas Digitales (DSD)"},
+          {"day": "Monday", "start": "16:30", "end": "18:00", "subject": "Electrónica de Potencia (EdP)"},
+          {"day": "Monday", "start": "18:00", "end": "19:00", "subject": "Antenas"},
+          {"day": "Tuesday", "start": "15:00", "end": "16:30", "subject": "Instrumentación Electrónica (IE)"},
+          {"day": "Tuesday", "start": "16:30", "end": "18:30", "subject": "Redes de Computadores (RdC)"},
+          {"day": "Wednesday", "start": "15:00", "end": "16:30", "subject": "Diseño de Sistemas Digitales (DSD)"},
+          {"day": "Wednesday", "start": "16:30", "end": "18:30", "subject": "Electrónica de Potencia (EdP)"},
+          {"day": "Thursday", "start": "14:30", "end": "16:00", "subject": "Antenas"},
+          {"day": "Thursday", "start": "16:00", "end": "17:30", "subject": "Instrumentación Electrónica (IE)"},
+          {"day": "Thursday", "start": "17:30", "end": "19:00", "subject": "Redes de Computadores (RdC)"}
+        ],
+        "laboratories": [
+          {"day": "Monday", "start": "09:30", "end": "11:30", "subject": "Instrumentación Electrónica (IE)", "group": "L1"},
+          {"day": "Monday", "start": "11:30", "end": "13:30", "subject": "Diseño de Sistemas Digitales (DSD)", "group": "L1"},
+          {"day": "Tuesday", "start": "09:30", "end": "11:30", "subject": "Antenas", "group": "L1"},
+          {"day": "Tuesday", "start": "11:30", "end": "13:30", "subject": "Electrónica de Potencia (EdP)", "group": "L1"},
+          {"day": "Wednesday", "start": "09:30", "end": "11:30", "subject": "Antenas", "group": "L2"},
+          {"day": "Wednesday", "start": "11:30", "end": "13:30", "subject": "Redes de Computadores (RdC)", "group": "L1"},
+          {"day": "Thursday", "start": "09:30", "end": "11:30", "subject": "Electrónica de Potencia (EdP)", "group": "L2"},
+          {"day": "Thursday", "start": "11:30", "end": "13:30", "subject": "Instrumentación Electrónica (IE)", "group": "L2"},
+          {"day": "Friday", "start": "15:00", "end": "17:00", "subject": "Antenas", "group": "L3"}
+        ]
+      },
+      "semester_2": {
+        "classroom": "Aula 14",
+        "theory_classes": [
+          {"day": "Tuesday", "start": "15:00", "end": "17:00", "subject": "Arquitectura de Sistemas Integrados (AdSI)"},
+          {"day": "Thursday", "start": "15:00", "end": "17:00", "subject": "Arquitectura de Sistemas Integrados (AdSI)"}
+        ],
+        "laboratories": [
+          {"day": "Tuesday", "start": "09:30", "end": "11:30", "subject": "Arquitectura de Sistemas Integrados (AdSI)", "group": "L1"},
+          {"day": "Thursday", "start": "09:30", "end": "11:30", "subject": "Arquitectura de Sistemas Integrados (AdSI)", "group": "L2"}
+        ]
+      }
+    },
+    "electives_3rd_and_4th_years": {
+      "semester_1": {
+        "classroom": "Aula 5",
+        "theory_classes": [
+          {"day": "Wednesday", "start": "09:30", "end": "11:00", "subject": "Bioingeniería (BioIng)"},
+          {"day": "Thursday", "start": "09:30", "end": "11:00", "subject": "Optimización de Sistemas (OdS)"},
+          {"day": "Friday", "start": "09:30", "end": "11:00", "subject": "Optimización de Sistemas (OdS)"},
+          {"day": "Friday", "start": "11:00", "end": "12:30", "subject": "Bioingeniería (BioIng)"}
+        ],
+        "laboratories": [
+          {"day": "Thursday", "start": "12:30", "end": "14:30", "subject": "Bioingeniería (BioIng)", "group": "L1"},
+          {"day": "Friday", "start": "12:30", "end": "14:30", "subject": "Optimización de Sistemas (OdS)", "group": "L1"},
+          {"day": "Friday", "start": "15:00", "end": "17:00", "subject": "Bioingeniería (BioIng)", "group": "L2"}
+        ]
+      },
+      "semester_2": {
+        "classroom": "Aula 14",
+        "theory_classes": [
+          {"day": "Monday", "start": "13:00", "end": "14:30", "subject": "Tecnologías Fotónicas de Comunicaciones (TFC)"},
+          {"day": "Tuesday", "start": "13:00", "end": "14:30", "subject": "Robótica (ROB)"},
+          {"day": "Wednesday", "start": "13:00", "end": "14:30", "subject": "Robótica (ROB)"},
+          {"day": "Thursday", "start": "13:00", "end": "14:30", "subject": "Tecnologías Fotónicas de Comunicaciones (TFC)"}
+        ],
+        "laboratories": [
+          {"day": "Wednesday", "start": "15:00", "end": "17:00", "subject": "Robótica (ROB)", "group": "L1"},
+          {"day": "Friday", "start": "09:30", "end": "11:30", "subject": "Tecnologías Fotónicas de Comunicaciones (TFC)", "group": "L1"},
+          {"day": "Friday", "start": "12:30", "end": "14:30", "subject": "Tecnologías Fotónicas de Comunicaciones (TFC)", "group": "L2"}
+        ]
+      }
+    }
+  }
+}

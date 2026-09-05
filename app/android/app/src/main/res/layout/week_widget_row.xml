@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fila del widget: 5 celdas (L-V). Cada celda muestra dos líneas:
+     [grupo] asignatura y horario de inicio-fin. Los colores y textos se
+     asignan en tiempo de ejecución desde la instantánea del horario. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="24dp"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp">
+
+    <TextView
+        android:id="@+id/w_time"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:textColor="#8A7A66"
+        android:textSize="6.5sp" />
+
+    <TextView
+        android:id="@+id/w_c1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginEnd="0.5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:lineSpacingExtra="0dp"
+        android:textColor="#5F2E1C"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/w_c2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginEnd="0.5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:lineSpacingExtra="0dp"
+        android:textColor="#5F2E1C"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/w_c3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginEnd="0.5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:lineSpacingExtra="0dp"
+        android:textColor="#5F2E1C"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/w_c4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginEnd="0.5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:lineSpacingExtra="0dp"
+        android:textColor="#5F2E1C"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/w_c5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginEnd="0.5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:lineSpacingExtra="0dp"
+        android:textColor="#5F2E1C"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+</LinearLayout>

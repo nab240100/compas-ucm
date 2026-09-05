@@ -1,0 +1,2482 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "academicYear": "2026-2027",
+    "degree": "Grado en Ingeniería Electrónica de Comunicaciones",
+    "university": "Universidad Complutense de Madrid",
+    "faculty": "Facultad de Ciencias Físicas",
+    "sources": [
+      "calendario academico.pdf",
+      "examenes.pdf",
+      "document.pdf (Guía Docente 2026-27, páginas 186-190)"
+    ],
+    "generatedAt": "2026-09-05"
+  },
+  "semesters": [
+    {
+      "id": 1,
+      "classesStart": "2026-09-02",
+      "classesEnd": "2026-12-15",
+      "examPeriod": {
+        "start": "2026-12-16",
+        "end": "2027-01-20"
+      },
+      "gradesDeadline": "2027-02-08",
+      "recoveryDays": [
+        "2026-12-09",
+        "2026-12-10"
+      ]
+    },
+    {
+      "id": 2,
+      "classesStart": "2027-01-21",
+      "classesEnd": "2027-05-07",
+      "examPeriod": {
+        "start": "2027-05-10",
+        "end": "2027-05-28"
+      },
+      "gradesDeadline": "2027-06-08",
+      "recoveryDays": [
+        "2027-05-06"
+      ]
+    }
+  ],
+  "extraordinaryExamPeriod": {
+    "start": "2027-06-14",
+    "end": "2027-07-05"
+  },
+  "extraordinaryGradesDeadline": "2027-07-09",
+  "calendarEvents": [
+    {
+      "name": "Acto de bienvenida",
+      "type": "welcome",
+      "dates": [
+        "2026-09-01"
+      ]
+    },
+    {
+      "name": "Fiesta Nacional",
+      "type": "festivo",
+      "dates": [
+        "2026-10-12"
+      ]
+    },
+    {
+      "name": "No lectivo",
+      "type": "noLectivo",
+      "dates": [
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ]
+    },
+    {
+      "name": "Todos los Santos / Festivo",
+      "type": "festivo",
+      "dates": [
+        "2026-11-01",
+        "2026-11-02"
+      ]
+    },
+    {
+      "name": "Almudena (Madrid)",
+      "type": "festivo",
+      "dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "name": "San Alberto Magno / Festivo",
+      "type": "festivo",
+      "dates": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "name": "Constitución / Inmaculada",
+      "type": "festivo",
+      "dates": [
+        "2026-12-06",
+        "2026-12-07",
+        "2026-12-08"
+      ]
+    },
+    {
+      "name": "Día de recuperación",
+      "type": "recovery",
+      "dates": [
+        "2026-12-09",
+        "2026-12-10",
+        "2027-05-06"
+      ]
+    },
+    {
+      "name": "Vacaciones de Navidad",
+      "type": "vacaciones",
+      "start": "2026-12-23",
+      "end": "2027-01-06"
+    },
+    {
+      "name": "Santo Tomás de Aquino / No lectivo",
+      "type": "noLectivo",
+      "dates": [
+        "2027-01-28",
+        "2027-01-29"
+      ]
+    },
+    {
+      "name": "Semana Santa",
+      "type": "vacaciones",
+      "start": "2027-03-22",
+      "end": "2027-03-29"
+    },
+    {
+      "name": "Fiesta del Trabajo / Comunidad de Madrid",
+      "type": "festivo",
+      "dates": [
+        "2027-05-01",
+        "2027-05-02"
+      ]
+    },
+    {
+      "name": "San Isidro",
+      "type": "festivo",
+      "dates": [
+        "2027-05-15"
+      ]
+    }
+  ],
+  "weekdays": {
+    "1": "Lunes",
+    "2": "Martes",
+    "3": "Miércoles",
+    "4": "Jueves",
+    "5": "Viernes"
+  },
+  "courses": [
+    {
+      "code": "804581",
+      "name": "Electrónica de potencia",
+      "shortName": "EdP",
+      "years": [
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-20",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-16",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "804583",
+      "name": "Instrumentación electrónica",
+      "shortName": "IE",
+      "years": [
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-14",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-18",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "804586",
+      "name": "Arquitectura de Sistemas Integrados",
+      "shortName": "AdSI",
+      "years": [
+        4
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-20",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-22",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "804587",
+      "name": "Diseño de sistemas digitales",
+      "shortName": "DSD",
+      "years": [
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2026-12-16",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-15",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "804600",
+      "name": "Redes de computadores",
+      "shortName": "RdC",
+      "years": [
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-11",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-14",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "804601",
+      "name": "Trabajo Fin de Grado",
+      "shortName": null,
+      "years": [
+        4
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": null,
+      "elective": false,
+      "special": "tfg",
+      "examOrdinary": {
+        "dates": [
+          "2027-01-27",
+          "2027-06-07"
+        ],
+        "time": "TBD"
+      },
+      "examExtraordinary": {
+        "date": "2027-07-05",
+        "time": "TBD"
+      }
+    },
+    {
+      "code": "804604",
+      "name": "Robótica",
+      "shortName": "ROB",
+      "years": [
+        3,
+        4
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": true,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-25",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-23",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "804611",
+      "name": "Prácticas de empresa",
+      "shortName": null,
+      "years": [
+        4
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": null,
+      "elective": false,
+      "special": "internship",
+      "examOrdinary": {
+        "date": "2027-05-28",
+        "time": "TBD"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-25",
+        "time": "TBD"
+      }
+    },
+    {
+      "code": "805960",
+      "name": "Física I",
+      "shortName": null,
+      "years": [
+        1
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-14",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-14",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805961",
+      "name": "Cálculo",
+      "shortName": null,
+      "years": [
+        1
+      ],
+      "semesters": [
+        1,
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-24",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-24",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805962",
+      "name": "Informática",
+      "shortName": null,
+      "years": [
+        1
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2026-12-18",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-18",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805963",
+      "name": "Circuitos Digitales",
+      "shortName": "C.D.",
+      "years": [
+        1
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2026-12-17",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-16",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805964",
+      "name": "Tratamiento y Análisis de Datos",
+      "shortName": "TyAdD",
+      "years": [
+        1
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-18",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-15",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805965",
+      "name": "Física II",
+      "shortName": null,
+      "years": [
+        1
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-18",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-23",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805966",
+      "name": "Álgebra",
+      "shortName": null,
+      "years": [
+        1
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-27",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-22",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805967",
+      "name": "Análisis de circuitos",
+      "shortName": "AdC",
+      "years": [
+        1
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-20",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-25",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805968",
+      "name": "Redes y Servicios de Telecom.",
+      "shortName": "RySdT",
+      "years": [
+        1
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-12",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-21",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805969",
+      "name": "Ampliación de Matemáticas",
+      "shortName": "AM",
+      "years": [
+        2
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-11",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-16",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805970",
+      "name": "Sistemas Lineales",
+      "shortName": "SSLL",
+      "years": [
+        2
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-13",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-18",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805971",
+      "name": "Electromagnetismo I",
+      "shortName": "ELM1",
+      "years": [
+        2
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2026-12-16",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-15",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805972",
+      "name": "Electrónica Física",
+      "shortName": "EF",
+      "years": [
+        2
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-15",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-14",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805973",
+      "name": "Estructura de Computadores",
+      "shortName": "EdC",
+      "years": [
+        2
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 2",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-20",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-17",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805974",
+      "name": "Electromagnetismo II",
+      "shortName": "ELM2",
+      "years": [
+        2
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-17",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-23",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805975",
+      "name": "Empresa y Gestión de proyectos",
+      "shortName": "EyGdP",
+      "years": [
+        2
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-28",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-24",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805976",
+      "name": "Sistemas Operativos y de Tiempo R.",
+      "shortName": "SOTR",
+      "years": [
+        2
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-21",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-22",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805977",
+      "name": "Procesamiento de Señales",
+      "shortName": "PdS",
+      "years": [
+        2
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula M3",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-11",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-21",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805978",
+      "name": "Teoría de la Comunicación",
+      "shortName": "TdC",
+      "years": [
+        3
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 5",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-19",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-17",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "805979",
+      "name": "Física de dispositivos electrónicos",
+      "shortName": "FdDE",
+      "years": [
+        3
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 5",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2026-12-18",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-14",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805980",
+      "name": "Circuitos de Alta Frecuencia",
+      "shortName": "CAF",
+      "years": [
+        3
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 5",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-12",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-17",
+        "time": "16:30"
+      }
+    },
+    {
+      "code": "805981",
+      "name": "Fundamentos de Redes de Computadores",
+      "shortName": "FRC",
+      "years": [
+        3
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 5",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-13",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-16",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805982",
+      "name": "Electrónica Analógica",
+      "shortName": "EA",
+      "years": [
+        3
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-24",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-23",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805983",
+      "name": "Fundamentos compatibilidad Electromagnética",
+      "shortName": "FCEM",
+      "years": [
+        3
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-18",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-24",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805984",
+      "name": "Control de sistemas",
+      "shortName": "CdS",
+      "years": [
+        3
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-10",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-22",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805985",
+      "name": "Comunicaciones inalámbricas",
+      "shortName": "CCII",
+      "years": [
+        3
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-26",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-21",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805990",
+      "name": "Antenas",
+      "shortName": null,
+      "years": [
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 14",
+      "elective": false,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-18",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-17",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "805992",
+      "name": "Optimización de sistemas",
+      "shortName": "OdS",
+      "years": [
+        3,
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 5",
+      "elective": true,
+      "special": null,
+      "examOrdinary": {
+        "date": "2026-12-17",
+        "time": "13:00"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-18",
+        "time": "13:00"
+      }
+    },
+    {
+      "code": "806000",
+      "name": "Tecnologías Fotónicas para Comun.",
+      "shortName": "TFC",
+      "years": [
+        3,
+        4
+      ],
+      "semesters": [
+        2
+      ],
+      "primarySemester": 2,
+      "classroom": "Aula 14",
+      "elective": true,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-05-13",
+        "time": "09:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-21",
+        "time": "09:30"
+      }
+    },
+    {
+      "code": "806001",
+      "name": "Bioingeniería",
+      "shortName": "BioIng",
+      "years": [
+        3,
+        4
+      ],
+      "semesters": [
+        1
+      ],
+      "primarySemester": 1,
+      "classroom": "Aula 5",
+      "elective": true,
+      "special": null,
+      "examOrdinary": {
+        "date": "2027-01-15",
+        "time": "16:30"
+      },
+      "examExtraordinary": {
+        "date": "2027-06-15",
+        "time": "13:00"
+      }
+    }
+  ],
+  "weeklySlots": [
+    {
+      "day": 1,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "805960",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "09:30",
+      "end": "10:30",
+      "courseCode": "805961",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "10:30",
+      "end": "11:30",
+      "courseCode": "805964",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "11:30",
+      "end": "12:30",
+      "courseCode": "805962",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "13:30",
+      "end": "14:30",
+      "courseCode": "805963",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "11:30",
+      "end": "12:30",
+      "courseCode": "805962",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "805960",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "10:30",
+      "courseCode": "805963",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "10:30",
+      "end": "11:30",
+      "courseCode": "805961",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "11:30",
+      "end": "12:30",
+      "courseCode": "805964",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "11:30",
+      "end": "12:30",
+      "courseCode": "805963",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "805960",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "08:30",
+      "end": "10:30",
+      "courseCode": "805962",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "14:30",
+      "end": "16:30",
+      "courseCode": "805964",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "16:30",
+      "end": "18:30",
+      "courseCode": "805962",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "15:30",
+      "end": "17:30",
+      "courseCode": "805963",
+      "kind": "lab",
+      "group": "L4",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805963",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "15:30",
+      "end": "17:30",
+      "courseCode": "805963",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805963",
+      "kind": "lab",
+      "group": "L3",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "14:30",
+      "end": "16:30",
+      "courseCode": "805964",
+      "kind": "lab",
+      "group": "L2 y L3",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805965",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "805966",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "08:30",
+      "end": "09:30",
+      "courseCode": "805967",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "10:30",
+      "end": "11:30",
+      "courseCode": "805961",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "11:30",
+      "end": "12:30",
+      "courseCode": "805966",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "805968",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "10:30",
+      "end": "12:30",
+      "courseCode": "805961",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "805968",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "14:30",
+      "end": "15:30",
+      "courseCode": "805967",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "10:30",
+      "courseCode": "805965",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "10:30",
+      "end": "12:30",
+      "courseCode": "805966",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "12:30",
+      "end": "13:30",
+      "courseCode": "805968",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "08:30",
+      "end": "10:30",
+      "courseCode": "805967",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "10:30",
+      "end": "12:30",
+      "courseCode": "805965",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "13:30",
+      "end": "15:30",
+      "courseCode": "805967",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805967",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "13:30",
+      "end": "15:30",
+      "courseCode": "805967",
+      "kind": "lab",
+      "group": "L3",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "805967",
+      "kind": "lab",
+      "group": "L4",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "805971",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "16:30",
+      "end": "18:00",
+      "courseCode": "805972",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "18:00",
+      "end": "19:30",
+      "courseCode": "805973",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "805970",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "16:30",
+      "end": "18:00",
+      "courseCode": "805969",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "18:00",
+      "end": "19:30",
+      "courseCode": "805973",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "805971",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "16:30",
+      "end": "18:00",
+      "courseCode": "805969",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "18:00",
+      "end": "19:30",
+      "courseCode": "805972",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "805970",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "16:30",
+      "end": "17:30",
+      "courseCode": "805972",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "17:30",
+      "end": "18:30",
+      "courseCode": "805971",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "18:30",
+      "end": "19:30",
+      "courseCode": "805969",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 2",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805970",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805973",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "805970",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "805973",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "15:30",
+      "end": "16:30",
+      "courseCode": "805976",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "16:30",
+      "end": "17:30",
+      "courseCode": "805977",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "17:30",
+      "end": "19:30",
+      "courseCode": "805975",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "15:30",
+      "end": "16:30",
+      "courseCode": "805976",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "16:30",
+      "end": "18:00",
+      "courseCode": "805974",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "18:00",
+      "end": "19:00",
+      "courseCode": "805977",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "805977",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "16:30",
+      "end": "18:00",
+      "courseCode": "805974",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "15:00",
+      "end": "16:00",
+      "courseCode": "805976",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "16:00",
+      "end": "17:30",
+      "courseCode": "805974",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "17:30",
+      "end": "19:30",
+      "courseCode": "805975",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula M3",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "12:00",
+      "end": "14:00",
+      "courseCode": "805974",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "12:00",
+      "end": "14:00",
+      "courseCode": "805976",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "12:00",
+      "end": "14:00",
+      "courseCode": "805974",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "12:00",
+      "end": "14:00",
+      "courseCode": "805976",
+      "kind": "lab",
+      "group": "L2 y L3",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "12:00",
+      "end": "14:00",
+      "courseCode": "805977",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805974",
+      "kind": "lab",
+      "group": "L4",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "12:00",
+      "end": "14:00",
+      "courseCode": "805977",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805974",
+      "kind": "lab",
+      "group": "L3",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "10:30",
+      "end": "11:30",
+      "courseCode": "805979",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "11:30",
+      "end": "13:00",
+      "courseCode": "805978",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "13:00",
+      "end": "14:30",
+      "courseCode": "805981",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "09:30",
+      "end": "11:00",
+      "courseCode": "805980",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "11:00",
+      "end": "12:30",
+      "courseCode": "805978",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "12:30",
+      "end": "14:00",
+      "courseCode": "805981",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "11:00",
+      "end": "12:30",
+      "courseCode": "805978",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "12:30",
+      "end": "14:00",
+      "courseCode": "805979",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "11:30",
+      "end": "13:00",
+      "courseCode": "805980",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "13:00",
+      "end": "14:30",
+      "courseCode": "805979",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "15:30",
+      "end": "17:30",
+      "courseCode": "805981",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805981",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805980",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "17:30",
+      "end": "19:30",
+      "courseCode": "805978",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805980",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "17:30",
+      "end": "19:30",
+      "courseCode": "805978",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "09:30",
+      "end": "11:00",
+      "courseCode": "805984",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "11:00",
+      "end": "12:30",
+      "courseCode": "805982",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805985",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "11:30",
+      "end": "13:00",
+      "courseCode": "805983",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "09:30",
+      "end": "11:00",
+      "courseCode": "805984",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "11:00",
+      "end": "12:30",
+      "courseCode": "805982",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805985",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "11:30",
+      "end": "13:00",
+      "courseCode": "805983",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "15:30",
+      "end": "17:30",
+      "courseCode": "805982",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "18:00",
+      "end": "20:00",
+      "courseCode": "805985",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805984",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805983",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805985",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "17:30",
+      "end": "19:30",
+      "courseCode": "805982",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805984",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805983",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805982",
+      "kind": "lab",
+      "group": "L3",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 1,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "804587",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "16:30",
+      "end": "18:00",
+      "courseCode": "804581",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "18:00",
+      "end": "19:00",
+      "courseCode": "805990",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "804583",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "16:30",
+      "end": "18:30",
+      "courseCode": "804600",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "16:30",
+      "courseCode": "804587",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "16:30",
+      "end": "18:30",
+      "courseCode": "804581",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "14:30",
+      "end": "16:00",
+      "courseCode": "805990",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "16:00",
+      "end": "17:30",
+      "courseCode": "804583",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "17:30",
+      "end": "19:00",
+      "courseCode": "804600",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "804583",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "804587",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805990",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "804581",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "805990",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 3,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "804600",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "804581",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "11:30",
+      "end": "13:30",
+      "courseCode": "804583",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "805990",
+      "kind": "lab",
+      "group": "L3",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 2,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "804586",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "804586",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "804586",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "804586",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "09:30",
+      "end": "11:00",
+      "courseCode": "806001",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "09:30",
+      "end": "11:00",
+      "courseCode": "805992",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "09:30",
+      "end": "11:00",
+      "courseCode": "805992",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "11:00",
+      "end": "12:30",
+      "courseCode": "806001",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 5",
+      "semester": 1
+    },
+    {
+      "day": 4,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "806001",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "805992",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 5,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "806001",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 1
+    },
+    {
+      "day": 1,
+      "start": "13:00",
+      "end": "14:30",
+      "courseCode": "806000",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 2,
+      "start": "13:00",
+      "end": "14:30",
+      "courseCode": "804604",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "13:00",
+      "end": "14:30",
+      "courseCode": "804604",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 4,
+      "start": "13:00",
+      "end": "14:30",
+      "courseCode": "806000",
+      "kind": "theory",
+      "group": null,
+      "classroom": "Aula 14",
+      "semester": 2
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "17:00",
+      "courseCode": "804604",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "09:30",
+      "end": "11:30",
+      "courseCode": "806000",
+      "kind": "lab",
+      "group": "L1",
+      "classroom": null,
+      "semester": 2
+    },
+    {
+      "day": 5,
+      "start": "12:30",
+      "end": "14:30",
+      "courseCode": "806000",
+      "kind": "lab",
+      "group": "L2",
+      "classroom": null,
+      "semester": 2
+    }
+  ]
+}
