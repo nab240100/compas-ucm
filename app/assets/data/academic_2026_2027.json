@@ -158,6 +158,8 @@
       "code": "804581",
       "name": "Electrónica de potencia",
       "shortName": "EdP",
+      "profesor": "Álvaro del Prado Millán",
+      "profesorOffice": "03.108.0",
       "years": [
         4
       ],
@@ -181,6 +183,8 @@
       "code": "804583",
       "name": "Instrumentación electrónica",
       "shortName": "IE",
+      "profesor": "Francisco Javier Franco Peláez",
+      "profesorOffice": "03.206.0",
       "years": [
         4
       ],
@@ -204,6 +208,8 @@
       "code": "804586",
       "name": "Arquitectura de Sistemas Integrados",
       "shortName": "AdSI",
+      "profesor": "Daniel A. Chaver Martínez",
+      "profesorOffice": "02.236.0",
       "years": [
         4
       ],
@@ -227,6 +233,8 @@
       "code": "804587",
       "name": "Diseño de sistemas digitales",
       "shortName": "DSD",
+      "profesor": "José Luis Imaña Pascual",
+      "profesorOffice": "02.226.0",
       "years": [
         4
       ],
@@ -250,6 +258,8 @@
       "code": "804600",
       "name": "Redes de computadores",
       "shortName": "RdC",
+      "profesor": "Carlos Núñez Gómez",
+      "profesorOffice": "Fac. Informát., Desp. 310",
       "years": [
         4
       ],
@@ -273,6 +283,8 @@
       "code": "804601",
       "name": "Trabajo Fin de Grado",
       "shortName": null,
+      "profesor": "Pedro Antoranz Canales",
+      "profesorOffice": "03.106.0",
       "years": [
         4
       ],
@@ -299,6 +311,8 @@
       "code": "804604",
       "name": "Robótica",
       "shortName": "ROB",
+      "profesor": "José Antonio López Orozco",
+      "profesorOffice": "02.234.0",
       "years": [
         3,
         4
@@ -323,6 +337,8 @@
       "code": "804611",
       "name": "Prácticas de empresa",
       "shortName": null,
+      "profesor": "Pedro Antoranz Canales",
+      "profesorOffice": "03.104.0",
       "years": [
         4
       ],
@@ -346,6 +362,8 @@
       "code": "805960",
       "name": "Física I",
       "shortName": null,
+      "profesor": "Por determinar",
+      "profesorOffice": null,
       "years": [
         1
       ],
@@ -369,6 +387,8 @@
       "code": "805961",
       "name": "Cálculo",
       "shortName": null,
+      "profesor": "Francesco Aprile",
+      "profesorOffice": "03.311.0",
       "years": [
         1
       ],
@@ -393,6 +413,8 @@
       "code": "805962",
       "name": "Informática",
       "shortName": null,
+      "profesor": "Ana María González de Miguel",
+      "profesorOffice": "420 Bis",
       "years": [
         1
       ],
@@ -416,6 +438,8 @@
       "code": "805963",
       "name": "Circuitos Digitales",
       "shortName": "C.D.",
+      "profesor": "José Luis Imaña Pascual",
+      "profesorOffice": "02.226.0",
       "years": [
         1
       ],
@@ -439,6 +463,8 @@
       "code": "805964",
       "name": "Tratamiento y Análisis de Datos",
       "shortName": "TyAdD",
+      "profesor": "Teresa Losada Doval",
+      "profesorOffice": "04.107.0",
       "years": [
         1
       ],
@@ -462,6 +488,8 @@
       "code": "805965",
       "name": "Física II",
       "shortName": null,
+      "profesor": "Por determinar",
+      "profesorOffice": null,
       "years": [
         1
       ],
@@ -485,6 +513,8 @@
       "code": "805966",
       "name": "Álgebra",
       "shortName": null,
+      "profesor": "M. Ángeles Gómez Flechoso",
+      "profesorOffice": "00.324.0",
       "years": [
         1
       ],
@@ -508,6 +538,8 @@
       "code": "805967",
       "name": "Análisis de circuitos",
       "shortName": "AdC",
+      "profesor": "Enrique San Andrés Serrano",
+      "profesorOffice": "03.111.0",
       "years": [
         1
       ],
@@ -531,6 +563,8 @@
       "code": "805968",
       "name": "Redes y Servicios de Telecom.",
       "shortName": "RySdT",
+      "profesor": "Miguel Ángel Sacristán Martínez",
+      "profesorOffice": "02.223.0",
       "years": [
         1
       ],
@@ -554,6 +588,8 @@
       "code": "805969",
       "name": "Ampliación de Matemáticas",
       "shortName": "AM",
+      "profesor": "Belén Rodríguez de Fonseca",
+      "profesorOffice": "04.112.0",
       "years": [
         2
       ],
@@ -577,6 +613,8 @@
       "code": "805970",
       "name": "Sistemas Lineales",
       "shortName": "SSLL",
+      "profesor": "María José Gómez Silva",
+      "profesorOffice": "02.225.0",
       "years": [
         2
       ],
@@ -600,6 +638,8 @@
       "code": "805971",
       "name": "Electromagnetismo I",
       "shortName": "ELM1",
+      "profesor": "Sagrario Muñoz San Martín",
+      "profesorOffice": "03.112.0",
       "years": [
         2
       ],
@@ -623,6 +663,8 @@
       "code": "805972",
       "name": "Electrónica Física",
       "shortName": "EF",
+      "profesor": "María Luisa Lucía Mulas",
+      "profesorOffice": "03.110.0",
       "years": [
         2
       ],
@@ -646,6 +688,8 @@
       "code": "805973",
       "name": "Estructura de Computadores",
       "shortName": "EdC",
+      "profesor": "Óscar Ruano Ramos",
+      "profesorOffice": "318, Fac. Informática",
       "years": [
         2
       ],
@@ -669,6 +713,8 @@
       "code": "805974",
       "name": "Electromagnetismo II",
       "shortName": "ELM2",
+      "profesor": "Sagrario Muñoz San Martín",
+      "profesorOffice": "03.112.0",
       "years": [
         2
       ],
@@ -692,6 +738,8 @@
       "code": "805975",
       "name": "Empresa y Gestión de proyectos",
       "shortName": "EyGdP",
+      "profesor": "Antonio Jesús Guillén López",
+      "profesorOffice": "Pabellón 3º, Facultad de Económicas y Empresariales",
       "years": [
         2
       ],
@@ -715,6 +763,8 @@
       "code": "805976",
       "name": "Sistemas Operativos y de Tiempo R.",
       "shortName": "SOTR",
+      "profesor": "Francisco Miguel García Herrero",
+      "profesorOffice": "318, Fac. Informática",
       "years": [
         2
       ],
@@ -738,6 +788,8 @@
       "code": "805977",
       "name": "Procesamiento de Señales",
       "shortName": "PdS",
+      "profesor": "Jesús Chacón Sombría",
+      "profesorOffice": "02.225.0",
       "years": [
         2
       ],
@@ -761,6 +813,8 @@
       "code": "805978",
       "name": "Teoría de la Comunicación",
       "shortName": "TdC",
+      "profesor": "José Luis Ayala Rodrigo",
+      "profesorOffice": "312, Fac. Informática",
       "years": [
         3
       ],
@@ -784,6 +838,8 @@
       "code": "805979",
       "name": "Física de dispositivos electrónicos",
       "shortName": "FdDE",
+      "profesor": "Ignacio Mártil de la Plaza",
+      "profesorOffice": "03.109.0",
       "years": [
         3
       ],
@@ -807,6 +863,8 @@
       "code": "805980",
       "name": "Circuitos de Alta Frecuencia",
       "shortName": "CAF",
+      "profesor": "Luis Ángel Tejedor Álvarez",
+      "profesorOffice": "03.219.B",
       "years": [
         3
       ],
@@ -830,6 +888,8 @@
       "code": "805981",
       "name": "Fundamentos de Redes de Computadores",
       "shortName": "FRC",
+      "profesor": "Carlos Núñez Gómez",
+      "profesorOffice": "Fac. Informát., Desp. 310",
       "years": [
         3
       ],
@@ -853,6 +913,8 @@
       "code": "805982",
       "name": "Electrónica Analógica",
       "shortName": "EA",
+      "profesor": "Álvaro del Prado Millán",
+      "profesorOffice": "03.108.0",
       "years": [
         3
       ],
@@ -876,6 +938,8 @@
       "code": "805983",
       "name": "Fundamentos compatibilidad Electromagnética",
       "shortName": "FCEM",
+      "profesor": "Pedro Antoranz Canales",
+      "profesorOffice": "03.106.0",
       "years": [
         3
       ],
@@ -899,6 +963,8 @@
       "code": "805984",
       "name": "Control de sistemas",
       "shortName": "CdS",
+      "profesor": "María Tomás Rodríguez",
+      "profesorOffice": "02.228.0",
       "years": [
         3
       ],
@@ -922,6 +988,8 @@
       "code": "805985",
       "name": "Comunicaciones inalámbricas",
       "shortName": "CCII",
+      "profesor": "Luis Ángel Tejedor Álvarez",
+      "profesorOffice": "03.219.0",
       "years": [
         3
       ],
@@ -945,6 +1013,8 @@
       "code": "805990",
       "name": "Antenas",
       "shortName": null,
+      "profesor": "Pedro Antoranz Canales",
+      "profesorOffice": "03.106.0",
       "years": [
         4
       ],
@@ -968,6 +1038,8 @@
       "code": "805992",
       "name": "Optimización de sistemas",
       "shortName": "OdS",
+      "profesor": "Clara I. López González",
+      "profesorOffice": "02.225.0",
       "years": [
         3,
         4
@@ -992,6 +1064,8 @@
       "code": "806000",
       "name": "Tecnologías Fotónicas para Comun.",
       "shortName": "TFC",
+      "profesor": "Mª Cruz Navarrete Fernández",
+      "profesorOffice": "01.309.0",
       "years": [
         3,
         4
@@ -1016,6 +1090,8 @@
       "code": "806001",
       "name": "Bioingeniería",
       "shortName": "BioIng",
+      "profesor": "Paula Ibáñez García",
+      "profesorOffice": "03.237.0",
       "years": [
         3,
         4

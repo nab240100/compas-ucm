@@ -12,6 +12,7 @@ Run from the project root:
 Fails loudly (non-zero exit) if a weekly slot cannot be resolved to a real
 course, times are malformed, or core-theory classes overlap.
 """
+import csv
 import json
 import re
 import sys
@@ -30,6 +31,33 @@ DAY_ORDER = {"Monday": 1, "Tuesday": 2, "Wednesday": 3, "Thursday": 4, "Friday":
 ELECTIVE_CODES = {"806001", "805992", "806000", "804604"}
 # Courses with special schedule semantics (multi-date / TBD times, no weekly slots)
 SPECIAL_CODES = {"804611": "internship", "804601": "tfg"}
+
+# ------------------------------------------------------------------ profesores
+# Fuente: courses.csv (raíz del repo), generado desde pdf_fichas/*.pdf.
+# Coordinadores ("Profesor/a Coordinador/a") de la Guía Docente 2026-27.
+# Algunas filas del CSV usan el nombre completo y no coinciden por nombre
+# normalizado con el del scrape (abreviado) → se enlazan aquí por código:
+CSV_NAME_BY_CODE = {
+    "805976": "Sistemas Operativos y de Tiempo Real",
+    "805983": "Fundamentos de Compatibilidad Electromagnética",
+    "806000": "Tecnologías Fotónicas para Comunicaciones",
+    "804611": "Prácticas en Empresa",
+}
+# Asignaturas del grado ausentes del CSV, rellenas desde su ficha en
+# pdf_fichas/ (la línea del coordinador es la fuente de "profesor"):
+#   Física_I.pdf, Redes_y_Servicios_de_Telecomunicación.pdf,
+#   Electromagnetismo_I.pdf, Fundamentos_de_Redes_de_Computadores.pdf,
+#   Trabajo_Fin_de_Grado.pdf y Prácticas_en_Empresa.pdf (fila de coordinador).
+EXTRA_PROF = {
+    "805960": ("Por determinar", None),
+    "805968": ("Miguel Ángel Sacristán Martínez", "02.223.0"),
+    "805971": ("Sagrario Muñoz San Martín", "03.112.0"),
+    "805981": ("Carlos Núñez Gómez", "Fac. Informát., Desp. 310"),
+    "804601": ("Pedro Antoranz Canales", "03.106.0"),
+    # Prácticas en Empresa: el CSV apuntaba al tribunal; el coordinador (y
+    # responsable del convenio) es Pedro Antoranz Canales (Desp. 03.104.0).
+    "804611": ("Pedro Antoranz Canales", "03.104.0"),
+}
 
 # Abbreviations used inside the timetable PDF/scrape, mapped to course codes.
 # The abbreviation set is unique per degree, so this is authoritative
@@ -79,14 +107,45 @@ def main() -> int:
             warnings.append(f"duplicate exam entry for {code}")
         exams_by_code[code] = ex
 
+    # ---------------------------------------------------------------- profesores
+    # Coordinadores/as desde courses.csv (raíz; generado de pdf_fichas/*.pdf)
+    # y completado con EXTRA_PROF para las fichas que el CSV no cubre.
+    scrape_norm = {norm(ex["course_name"]): code for code, ex in exams_by_code.items()}
+    professors: dict[str, tuple[str | None, str | None]] = {}
+    csv_path = ROOT / "courses.csv"
+    if not csv_path.exists():
+        warnings.append("courses.csv no encontrado: las asignaturas irán sin profesor")
+    else:
+        with csv_path.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                name = (row.get("course") or "").strip()
+                if not name:
+                    continue
+                prof = (row.get("profesor") or "").strip() or None
+                office = (row.get("profesor_office") or "").strip() or None
+                code = scrape_norm.get(norm(name)) or next(
+                    (c for c, csv_name in CSV_NAME_BY_CODE.items() if csv_name == name),
+                    None,
+                )
+                if code:
+                    professors[code] = (prof, office)
+                else:
+                    warnings.append(f"courses.csv sin asignatura conocida: {name}")
+        for code, (prof, office) in EXTRA_PROF.items():
+            if code in exams_by_code:
+                professors[code] = (prof, office)
+
     courses = []
     for code, ex in sorted(exams_by_code.items()):
         years = [3, 4] if code in ELECTIVE_CODES else [ex["year"]]
+        prof, office = professors.get(code, (None, None))
         courses.append(
             {
                 "code": code,
                 "name": ex["course_name"],
                 "shortName": None,  # filled below from timetable abbreviations
+                "profesor": prof,
+                "profesorOffice": office,
                 "years": years,
                 "semesters": [ex["semester"]],
                 "primarySemester": ex["semester"],  # semestre de matrícula (lista de exámenes)
@@ -253,6 +312,23 @@ def main() -> int:
         recovery.extend(s["recoveryDays"])
     calendar_events.append({"name": "Día de recuperación", "type": "recovery", "dates": sorted(set(recovery))})
 
+    # Correcciones manuales validadas contra "calendario academico.pdf" (los
+    # días en color/puentes se pierden en el scrape): se aplican por nombre.
+    CALENDAR_FIXES = [
+        # 2026-11-01 es domingo → puente del lunes 2.
+        {"name": "Todos los Santos / Festivo", "type": "festivo",
+         "dates": ["2026-11-01", "2026-11-02"]},
+        # Patrón de la UCM (San Alberto Magno, 15-nov domingo → viernes 13).
+        {"name": "San Alberto Magno / Festivo", "type": "festivo",
+         "dates": ["2026-11-13"]},
+        # El 3 de mayo no consta como no lectivo en el PDF oficial.
+        {"name": "Fiesta del Trabajo / Comunidad de Madrid", "type": "festivo",
+         "dates": ["2027-05-01", "2027-05-02"]},
+    ]
+    for fix in CALENDAR_FIXES:
+        calendar_events = [e for e in calendar_events if e["name"] != fix["name"]]
+        calendar_events.append(fix)
+
     calendar_events.sort(key=lambda e: (e.get("start") or min(e.get("dates", ["9999-12-31"]))))
 
     # ------------------------------------------------------------------ validation
@@ -352,6 +428,9 @@ def main() -> int:
     OUT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"courses: {len(courses)} (electives: {sum(1 for c in courses if c['elective'])})")
+    no_prof = [c["code"] for c in courses if not c["profesor"]]
+    if no_prof:
+        warnings.append(f"asignaturas sin profesor: {', '.join(no_prof)}")
     print(f"weekly slots: {len(out['weeklySlots'])} "
           f"(theory: {sum(1 for s in out['weeklySlots'] if s['kind'] == 'theory')}, "
           f"labs: {sum(1 for s in out['weeklySlots'] if s['kind'] == 'lab')})")

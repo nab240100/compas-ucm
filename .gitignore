@@ -18,3 +18,6 @@
 /document.pdf
 /examenes.pdf
 .git_known_hosts
+
+# Fichas por asignatura (Guía Docente): fuente de profesores, no se suben
+/pdf_fichas/

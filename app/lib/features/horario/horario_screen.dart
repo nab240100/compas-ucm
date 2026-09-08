@@ -7,6 +7,7 @@ import '../../data/profile.dart';
 import '../../data/projection.dart';
 import '../../state/providers.dart';
 import '../setup/wizard_screen.dart';
+import 'class_details_sheet.dart';
 
 /// Franja horaria que ocupa el grid (08:00 → 20:30).
 const int _firstMinute = 8 * 60; // 08:00
@@ -17,7 +18,11 @@ const double _dayHeaderHeight = 42;
 /// Mínimos de legibilidad: si el espacio disponible no llega a estos valores,
 /// el contenido crece y la vista recupera el desplazamiento (scroll).
 const double _minHourHeight = 26;
-const double _minColWidth = 56;
+
+/// Mínimo por columna para que la hora "11:30–13:30" quepa legible en las
+/// tarjetas; en pantallas estrechas la semana se desplaza un poco en
+/// horizontal en vez de cortar los textos.
+const double _minColWidth = 66;
 
 /// Desplazamiento horizontal de cada tarjeta cuando hay clases solapadas.
 const double _overlapStep = 14;
@@ -679,19 +684,25 @@ class _DayColumn extends StatelessWidget {
                     left: 2 + (entry.count > 1 ? entry.index * _overlapStep : 0),
                     width: (width - 4) -
                         (entry.count > 1 ? (entry.count - 1) * _overlapStep : 0),
-                    child: entry.count > 1
-                        ? Opacity(
-                            opacity: 0.82,
-                            child: _SlotCard(
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => _openSlotDetails(context, entry.slot),
+                      child: entry.count > 1
+                          ? Opacity(
+                              opacity: 0.82,
+                              child: _SlotCard(
+                                slot: entry.slot,
+                                courseName:
+                                    _courseName(context, entry.slot.courseCode),
+                                overlapping: true,
+                              ),
+                            )
+                          : _SlotCard(
                               slot: entry.slot,
-                              courseName: _courseName(context, entry.slot.courseCode),
-                              overlapping: true,
+                              courseName:
+                                  _courseName(context, entry.slot.courseCode),
                             ),
-                          )
-                        : _SlotCard(
-                            slot: entry.slot,
-                            courseName: _courseName(context, entry.slot.courseCode),
-                          ),
+                    ),
                   ),
                 if (nowMinutes != null)
                   Positioned(
@@ -731,6 +742,15 @@ class _DayColumn extends StatelessWidget {
             .valueOrNull;
     return data == null ? code : data.courseByCode(code).displayName;
   }
+
+  /// Tocar una clase abre su detalle (profesor, aula, despacho…).
+  void _openSlotDetails(BuildContext context, WeeklySlot slot) {
+    final data = ProviderScope.containerOf(context, listen: false)
+        .read(academicDataProvider)
+        .valueOrNull;
+    if (data == null) return;
+    showClassDetails(context, data, slot);
+  }
 }
 
 class _SlotCard extends StatelessWidget {
@@ -764,8 +784,9 @@ class _SlotCard extends StatelessWidget {
         ),
       ),
       // Padding vertical pequeño: ahora el grid se adapta a la pantalla y
-      // las celdas de 1 h son más bajas que antes.
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      // las celdas de 1 h son más bajas que antes. El horizontal se reduce
+      // al mínimo para que la hora no se corte.
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
       child: LayoutBuilder(
         builder: (context, constraints) {
           final double h = constraints.maxHeight;
@@ -792,6 +813,31 @@ class _SlotCard extends StatelessWidget {
                   height: 1.2,
                   color: container,
                   fontWeight: FontWeight.w800,
+                ),
+              ),
+            );
+          }
+
+          // Hora SIEMPRE completa: si la columna es estrecha, FittedBox
+          // encoge el texto en vez de cortarlo ("11:30–13:30" nunca se
+          // trunca). La escala resultante sigue siendo legible porque el
+          // texto de hora es corto (10 glifos).
+          Widget timeLine(double fontSize) {
+            return SizedBox(
+              height: fontSize + 2,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  time,
+                  maxLines: 1,
+                  softWrap: false,
+                  style: TextStyle(
+                    color: onColor.withValues(alpha: 0.85),
+                    fontSize: fontSize,
+                    height: 1.0,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
             );
@@ -825,7 +871,9 @@ class _SlotCard extends StatelessWidget {
 
           final bool full = h >= 62;
 
-          // ── Compacta (≈1 h): [grupo] + nombre, hora (y aula) debajo ─────
+          // ── Compacta (≈1 h): [grupo] + nombre + hora completa ──────────
+          // Solo hora: el aula (y el profesor) se mostrarán al tocar la
+          // clase en un detalle posterior.
           if (!full) {
             return Column(
               mainAxisSize: MainAxisSize.min,
@@ -854,22 +902,12 @@ class _SlotCard extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 1),
-                Text(
-                  '$time${group != null && !pillable ? ' · $group' : ''}'
-                  '${slot.classroom != null ? ' · ${slot.classroom}' : ''}',
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: textTheme.labelSmall?.copyWith(
-                    color: onColor.withValues(alpha: 0.8),
-                    fontSize: 10,
-                    height: 1.1,
-                  ),
-                ),
+                timeLine(h < 36 ? 9.5 : 10),
               ],
             );
           }
 
-          // ── Completa (≥2 h): pastilla Ln + nombre + hora + aula ─────────
+          // ── Completa (≥2 h): pastilla Ln + nombre + hora ───────────────
           return Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -892,27 +930,7 @@ class _SlotCard extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 1),
-              Text(
-                time,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: textTheme.labelSmall?.copyWith(
-                  color: onColor.withValues(alpha: 0.8),
-                  fontSize: 10,
-                  height: 1.1,
-                ),
-              ),
-              if (slot.classroom != null)
-                Text(
-                  slot.classroom!,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: textTheme.labelSmall?.copyWith(
-                    color: onColor.withValues(alpha: 0.8),
-                    fontSize: 10,
-                    height: 1.15,
-                  ),
-                ),
+              timeLine(10),
             ],
           );
         },

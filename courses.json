@@ -1,0 +1,206 @@
+[
+  {
+    "course": "Física II",
+    "profesor": "Por determinar",
+    "schedule": "L: 09:00 – 11:00 (M3), J: 09:00 – 10:30 (M3), V: 10:00 – 11:30 (M3)",
+    "profesor_office": ""
+  },
+  {
+    "course": "Cálculo",
+    "profesor": "Francesco Aprile",
+    "schedule": "M: 9:00-10:30 (Aula 2), X: 11:00-12:30 (Aula 2)",
+    "profesor_office": "03.311.0"
+  },
+  {
+    "course": "Informática",
+    "profesor": "Ana María González de Miguel",
+    "schedule": "M: 11:30-13:00 (Aula 2), X: 11:00-12:30 (Aula 2)",
+    "profesor_office": "420 Bis"
+  },
+  {
+    "course": "Circuitos Digitales",
+    "profesor": "José Luis Imaña Pascual",
+    "schedule": "M: 13:00 – 14:00 (Aula 2), J: 09:00 – 10:30 (Aula 2), V: 11:00 – 12:30 (Aula 2)",
+    "profesor_office": "02.226.0"
+  },
+  {
+    "course": "Tratamiento y Análisis de Datos",
+    "profesor": "Teresa Losada Doval",
+    "schedule": "M: 10:30-11:30 (Aula 2), J: 12:00-13:00 (Aula 2)",
+    "profesor_office": "04.107.0"
+  },
+  {
+    "course": "Álgebra",
+    "profesor": "M. Ángeles Gómez Flechoso",
+    "schedule": "L: 11:00-12:30 (M3), M: 11:30-12:30 (M3), J: 10:30-12:00 (M3)",
+    "profesor_office": "00.324.0"
+  },
+  {
+    "course": "Análisis de Circuitos",
+    "profesor": "Enrique San Andrés Serrano",
+    "schedule": "L 9:00-10:30, X 14:00-15:00, V 9:00-10:00 — Aula M3",
+    "profesor_office": "03.111.0"
+  },
+  {
+    "course": "Estructura de Computadores",
+    "profesor": "Óscar Ruano Ramos",
+    "schedule": "L 17:30-19:00, M 17:30-19:00 — Aula 2",
+    "profesor_office": "318, Fac. Informática"
+  },
+  {
+    "course": "Sistemas Lineales",
+    "profesor": "María José Gómez Silva",
+    "schedule": "M 14:30-16:30, J 14:30-16:00 — Aula 2",
+    "profesor_office": "02.225.0"
+  },
+  {
+    "course": "Electromagnetismo II",
+    "profesor": "Sagrario Muñoz San Martín",
+    "schedule": "M 16:30-17:30, X 16:00-17:30, J 16:00-17:00 — Aula M3",
+    "profesor_office": "03.112.0"
+  },
+  {
+    "course": "Ampliación de Matemáticas",
+    "profesor": "Belén Rodríguez de Fonseca",
+    "schedule": "M 16:30-17:30, X 16:00-17:30, J 18:00-19:30 — Aula 2",
+    "profesor_office": "04.112.0"
+  },
+  {
+    "course": "Electrónica Física",
+    "profesor": "María Luisa Lucía Mulas",
+    "schedule": "L 16:00-17:30, X 17:30-19:00, J 16:00-17:00 — Aula 2",
+    "profesor_office": "03.110.0"
+  },
+  {
+    "course": "Sistemas Operativos y de Tiempo Real",
+    "profesor": "Francisco Miguel García Herrero",
+    "schedule": "L 15:00-16:00, M 15:00-16:30, J 15:00-16:00 — Aula M3",
+    "profesor_office": "318, Fac. Informática"
+  },
+  {
+    "course": "Empresa y Gestión de Proyectos",
+    "profesor": "Antonio Jesús Guillén López",
+    "schedule": "L 17:30–19:30, J 17:00–19:00, Aula M3",
+    "profesor_office": "Pabellón 3º, Facultad de Económicas y Empresariales"
+  },
+  {
+    "course": "Procesamiento de Señales",
+    "profesor": "Jesús Chacón Sombría",
+    "schedule": "L 16:00–17:30, M 17:30–18:30, X 15:00–16:00, Aula M3",
+    "profesor_office": "02.225.0"
+  },
+  {
+    "course": "Teoría de la Comunicación",
+    "profesor": "José Luis Ayala Rodrigo",
+    "schedule": "L 11:30–13:00, M 10:30–11:30, X 11:00–12:00, Aula 5",
+    "profesor_office": "312, Fac. Informática"
+  },
+  {
+    "course": "Física de Dispositivos Electrónicos",
+    "profesor": "Ignacio Mártil de la Plaza",
+    "schedule": "L 10:00–11:30, J 12:30–13:30, Aula 5",
+    "profesor_office": "03.109.0"
+  },
+  {
+    "course": "Redes de Computadores",
+    "profesor": "Carlos Núñez Gómez",
+    "schedule": "M 16:30–18:30, J 17:00–18:30, Aula 12",
+    "profesor_office": "Fac. Informát., Desp. 310"
+  },
+  {
+    "course": "Circuitos de Alta Frecuencia",
+    "profesor": "Luis Ángel Tejedor Álvarez",
+    "schedule": "M 9:00–10:30, J 11:00–12:30, Aula 5",
+    "profesor_office": "03.219.B"
+  },
+  {
+    "course": "Fundamentos de Compatibilidad Electromagnética",
+    "profesor": "Pedro Antoranz Canales",
+    "schedule": "M 11:00–12:30, J 10:30–12:30, Aula 14",
+    "profesor_office": "03.106.0"
+  },
+  {
+    "course": "Electrónica Analógica",
+    "profesor": "Álvaro del Prado Millán",
+    "schedule": "L 10:30–12:30, X 10:30–12:00, Aula 14",
+    "profesor_office": "03.108.0"
+  },
+  {
+    "course": "Comunicaciones Inalámbricas",
+    "profesor": "Luis Ángel Tejedor Álvarez",
+    "schedule": "M 9:00–11:00, J 9:00–10:30, Aula 14",
+    "profesor_office": "03.219.0"
+  },
+  {
+    "course": "Control de Sistemas",
+    "profesor": "María Tomás Rodríguez",
+    "schedule": "L 9:00–10:30, X 9:00–10:30, Aula 14",
+    "profesor_office": "02.228.0"
+  },
+  {
+    "course": "Instrumentación Electrónica",
+    "profesor": "Francisco Javier Franco Peláez",
+    "schedule": "M 15:00–16:30, J 15:30–17:00, Aula 14",
+    "profesor_office": "03.206.0"
+  },
+  {
+    "course": "Diseño de Sistemas Digitales",
+    "profesor": "José Luis Imaña Pascual",
+    "schedule": "L 14:30–16:00, X 15:30–17:00, Aula 14",
+    "profesor_office": "02.226.0"
+  },
+  {
+    "course": "Electrónica de Potencia",
+    "profesor": "Álvaro del Prado Millán",
+    "schedule": "L 16:00–17:30, X 17:00–18:30, Aula 14",
+    "profesor_office": "03.108.0"
+  },
+  {
+    "course": "Arquitectura de Sistemas Integrados",
+    "profesor": "Daniel A. Chaver Martínez",
+    "schedule": "M 15:00–16:30, J 15:00–16:30, Aula 14",
+    "profesor_office": "02.236.0"
+  },
+  {
+    "course": "Antenas",
+    "profesor": "Pedro Antoranz Canales",
+    "schedule": "Lunes 17:30-18:30 Aula 14; Jueves 14:30-15:30 Aula 14",
+    "profesor_office": "03.106.0"
+  },
+  {
+    "course": "Trabajo Fin de Grado",
+    "profesor": "Pedro Antoranz Canales",
+    "schedule": "Sin horario regular (tutorización individual)",
+    "profesor_office": "03.106.0"
+  },
+  {
+    "course": "Prácticas en Empresa",
+    "profesor": "Tribunal por determinar",
+    "schedule": "Sin horario regular",
+    "profesor_office": "03.104.0"
+  },
+  {
+    "course": "Optimización de Sistemas",
+    "profesor": "Clara I. López González",
+    "schedule": "Jueves 9:30-11:00 Aula 5; Viernes 9:30-11:00 Aula 5",
+    "profesor_office": "02.225.0"
+  },
+  {
+    "course": "Bioingeniería",
+    "profesor": "Paula Ibáñez García",
+    "schedule": "Miércoles 9:30-11:00 Aula 5; Viernes 11:00-12:30 Aula 5",
+    "profesor_office": "03.237.0"
+  },
+  {
+    "course": "Robótica",
+    "profesor": "José Antonio López Orozco",
+    "schedule": "Lunes 12:30-14:00 Aula 14; Miércoles 12:30-14:00 Aula 14",
+    "profesor_office": "02.234.0"
+  },
+  {
+    "course": "Tecnologías Fotónicas para Comunicaciones",
+    "profesor": "Mª Cruz Navarrete Fernández",
+    "schedule": "Lunes y Jueves 12:30-14:00 Aula 14",
+    "profesor_office": "01.309.0"
+  }
+]

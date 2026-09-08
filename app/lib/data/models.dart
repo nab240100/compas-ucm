@@ -206,6 +206,8 @@ class Course {
     required this.examOrdinary,
     required this.examExtraordinary,
     this.shortName,
+    this.profesor,
+    this.profesorOffice,
     this.classroom,
     this.special,
   });
@@ -219,6 +221,8 @@ class Course {
       code: json['code'] as String,
       name: json['name'] as String,
       shortName: json['shortName'] as String?,
+      profesor: json['profesor'] as String?,
+      profesorOffice: json['profesorOffice'] as String?,
       years: [for (final y in json['years'] as List) y as int],
       semesters: semesters,
       primarySemester: json['primarySemester'] as int? ?? semesters.first,
@@ -237,6 +241,11 @@ class Course {
   final String code;
   final String name;
   final String? shortName;
+
+  /// Profesor/a coordinador/a (Guía Docente). Puede ser "Por determinar" o
+  /// null si aún no se ha publicado la ficha.
+  final String? profesor;
+  final String? profesorOffice;
 
   /// Cursos en los que se imparte (las optativas van en 3º y 4º).
   final List<int> years;
