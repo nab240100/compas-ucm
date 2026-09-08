@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tarjeta de clase 0 (esquinas redondeadas). Color fijo: la app elige el
+     recurso según el color de la asignatura en tiempo de ejecución. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F5C8B0" />
+    <corners android:radius="18dp" />
+</shape>

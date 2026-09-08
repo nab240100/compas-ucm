@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pastilla de metadatos de la cabecera (semestre · nº de clases). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#EFE4D6" />
+    <corners android:radius="14dp" />
+</shape>

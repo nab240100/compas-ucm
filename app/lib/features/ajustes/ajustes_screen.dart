@@ -128,15 +128,16 @@ class AjustesScreen extends ConsumerWidget {
                       const SizedBox(height: 8),
                       Text(
                         'Añádelo a tu pantalla de inicio: mantén pulsado el fondo '
-                        '→ Widgets → Compás UCM → «Horario semanal» (4×4).',
+                        '→ Widgets → Compás UCM → «Horario semanal» (4×4) '
+                        'o «Horario de hoy» (3×4, vertical).',
                         style: textTheme.bodySmall?.copyWith(
                           color: scheme.onSurfaceVariant,
                         ),
                       ),
                       const SizedBox(height: 6),
                       Text(
-                        'El widget se actualiza al abrir la app o al cambiar tu '
-                        'selección de asignaturas.',
+                        '«Horario de hoy» muestra solo las clases del día; '
+                        'se refresca al abrir la app y cada ~30 min.',
                         style: textTheme.bodySmall?.copyWith(
                           color: scheme.onSurfaceVariant,
                         ),

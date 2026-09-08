@@ -5,6 +5,7 @@ import 'package:compas_ucm/data/academic_repository.dart';
 import 'package:compas_ucm/data/appearance.dart';
 import 'package:compas_ucm/data/models.dart';
 import 'package:compas_ucm/data/profile.dart';
+import 'package:compas_ucm/features/ajustes/ajustes_screen.dart';
 import 'package:compas_ucm/main.dart';
 import 'package:compas_ucm/state/providers.dart';
 import 'package:flutter/material.dart';
@@ -173,14 +174,35 @@ void main() {
     await tester.tap(find.text('Ajustes'));
     await settleTaps(tester);
 
+    // La sección de apariencia queda más abajo en pantallas de test: se
+    // desplaza dentro de Ajustes antes de interactuar con ella.
+    final ajustesScroll = find
+        .descendant(
+          of: find.byType(AjustesScreen),
+          matching: find.byType(Scrollable),
+        )
+        .first;
+    await tester.scrollUntilVisible(
+      find.text('Apariencia'),
+      120,
+      scrollable: ajustesScroll,
+    );
+    await tester.pump();
+
     expect(find.text('Apariencia'), findsOneWidget);
     expect(find.text('Color del tema'), findsOneWidget);
 
     // Cambia la semilla (el estado del provider se actualiza al instante).
+    await tester.scrollUntilVisible(
+      find.text('Salvia'),
+      120,
+      scrollable: ajustesScroll,
+    );
+    await tester.pump();
     await tester.tap(find.text('Salvia'));
     await settleTaps(tester);
     final container = ProviderScope.containerOf(
-      tester.element(find.text('Apariencia')),
+      tester.element(find.byType(NavigationBar)),
     );
     expect(
       container.read(appearanceProvider).valueOrNull?.seed,
@@ -188,7 +210,11 @@ void main() {
     );
 
     // Cambia el modo a oscuro.
-    await tester.ensureVisible(find.text('Oscuro'));
+    await tester.scrollUntilVisible(
+      find.text('Oscuro'),
+      120,
+      scrollable: ajustesScroll,
+    );
     await tester.pump();
     await tester.tap(find.text('Oscuro'));
     await settleTaps(tester);

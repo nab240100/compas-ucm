@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget "Horario de hoy": formato vertical 3×4, letra grande.
+     Se refresca al abrir la app y, como mucho, cada 30 minutos. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="180dp"
+    android:minHeight="220dp"
+    android:targetCellWidth="3"
+    android:targetCellHeight="4"
+    android:maxResizeWidth="500dp"
+    android:maxResizeHeight="600dp"
+    android:updatePeriodMillis="1800000"
+    android:initialLayout="@layout/day_widget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen" />

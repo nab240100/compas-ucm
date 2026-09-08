@@ -41,13 +41,18 @@ Verifica los festivos/no lectivos contra el calendario oficial antes de cada
 curso; el PDF codifica los días en **colores** (texto rojo, fondos, "R" azul)
 que la extracción por visión tiende a perder.
 
-## Widget de horario (Android)
+## Widgets de Android
 
 La app escribe una instantánea del horario del perfil en SharedPreferences
-(`app/lib/data/widget_snapshot.dart`) y el widget la lee (carpeta
-`app/android/.../widgets/`) para pintar la semana L–V de 08:00 a 20:00.
+(`app/lib/data/widget_snapshot.dart`) y los widgets la leen (carpeta
+`app/android/.../widgets/`). Hay dos widgets:
+
+- **Horario semanal** (4×4): la semana L–V de 08:00 a 20:00.
+- **Horario de hoy** (3×4, vertical): solo las clases del día, con su franja horaria.
+  Se refresca al abrir la app y, además, cada ~30 min.
+
 Añadir: mantener pulsado el escritorio → Widgets → Compás UCM → *Horario
-semanal*.
+semanal* o *Horario de hoy*.
 
 ## Licencia / aviso
 
